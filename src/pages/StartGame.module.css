@@ -67,4 +67,13 @@
   .qrCodeContainer {
     display: none;
   }
+  .container{
+    height: 100vh;
+    background-image: url('https://cdn.images.express.co.uk/img/dynamic/130/750x445/1282929.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 }
