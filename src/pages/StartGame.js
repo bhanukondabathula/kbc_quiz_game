@@ -18,6 +18,7 @@ const StartGame = (props) => {
        <p className={classes.qrtext}>To continue on mobile scan QR code</p>
         <img src={qrcode} alt="Scan this QR code to join the game" className={classes.qrCode} />
       </div>
+      
       <div className={classes.userForm}>
         <input
           type="text"
