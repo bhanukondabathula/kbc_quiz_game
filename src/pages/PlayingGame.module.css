@@ -17,8 +17,10 @@
   color: white;
 }
 
-.prize {
-  font-size: 28px;
+.won{
+  font-size: 25px;
+  color: rgb(117, 166, 240);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .btn {
