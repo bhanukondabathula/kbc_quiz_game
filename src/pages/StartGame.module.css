@@ -48,12 +48,12 @@
 }
 
 .qrCode {
-  width: 200px; /* Adjust the size as needed */
+  width: 200px; 
   height: auto;
   margin-top: 20px;
 }
 .qrtext{
-  color:rgb(174, 197, 25);
+  color:rgb(142, 231, 112);
   font-weight: 800;
   font-size: 38px;
   font-family: 'Courier New', Courier, monospace;
@@ -70,7 +70,7 @@
   
   .container {
     height: 100vh;
-    background-image: url('https://tse3.mm.bing.net/th?id=OIP.K4MQo3NKcNIr-aoUHUdDUgHaHf&pid=Api&P=0&h=180');
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.nl4Zi8X1meCXwu8-k1O3MAHaH_&pid=Api&P=0&h=180');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -98,5 +98,4 @@
     margin-bottom: 10px; 
   }
 }
-
 
