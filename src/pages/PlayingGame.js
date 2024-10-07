@@ -56,9 +56,11 @@ const PlayingGame = (props) => {
           />
         ) : (
           <>
-            <span className={classes.won}>
+            {correctAnsCount>2 ? (<span className={classes.won}>
+              You got {correctAnsCount} points 🎊🎊🎉
+            </span>):(<span className={classes.won}>
               You got {correctAnsCount} points
-            </span>
+            </span>)}
             <button onClick={props.onStartGame} className={classes.btn}>
               Play again
             </button>

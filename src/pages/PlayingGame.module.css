@@ -18,8 +18,9 @@
 }
 
 .won{
-  font-size: 25px;
-  color: rgb(117, 166, 240);
+  font-size: 38px;
+  color: rgb(193, 220, 193);
+  font-weight: bold;
   font-family: 'Courier New', Courier, monospace;
 }
 
