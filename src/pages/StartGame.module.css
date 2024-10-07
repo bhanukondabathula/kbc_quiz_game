@@ -69,7 +69,7 @@
   }
   .container{
     height: 100vh;
-     max-width: 600px;
+     max-width: 100vw;
     background-image: url('https://tse3.mm.bing.net/th?id=OIP.K4MQo3NKcNIr-aoUHUdDUgHaHf&pid=Api&P=0&h=180');
     background-size: cover;
     display: flex;
