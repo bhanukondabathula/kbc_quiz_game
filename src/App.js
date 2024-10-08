@@ -20,7 +20,7 @@ function App() {
     <>
       {gameState === "start" && <StartGame onPlayGame={playGameHandler} />}
       {gameState === "playing" && (
-        <PlayingGame onStartGame={startGameHandler} />
+        <PlayingGame onStartGame={startGameHandler} userName={userName}/>
       )}
        <p>{userName}</p>
     </>

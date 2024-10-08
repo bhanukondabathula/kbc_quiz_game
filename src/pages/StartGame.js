@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import classes from "./StartGame.module.css";
 
-// Importing the QR code image (adjust the path as needed based on your folder structure)
+
 import qrcode from "../assets/qrcode.png";
 
 const StartGame = (props) => {
@@ -13,7 +13,7 @@ const StartGame = (props) => {
 
   return (
     <div className={classes.container}>
-       {/* Display QR Code */}
+       
        <div className={classes.qrCodeContainer}>
        <p className={classes.qrtext}>To continue on mobile scan QR code</p>
         <img src={qrcode} alt="Scan this QR code to join the game" className={classes.qrCode} />

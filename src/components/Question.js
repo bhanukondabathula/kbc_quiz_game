@@ -40,11 +40,11 @@ const Question = (props) => {
 
       setTimeout(() => {
         answer.isCorrect ? correctSound() : wrongSound();
-        // wait again for 3s animation blinking to finish and 1 s for sound
+       
         setTimeout(() => {
           props.isAnswerCorrect(answer.isCorrect);
         }, 1000);
-      }, 3000);
+      }, 2000);
     }, 3000);
   };
 
@@ -64,9 +64,7 @@ const Question = (props) => {
           {questionData.options.map((option, index) => (
             <div
               key={index}
-              className={
-                chosenAnswer === option ? selectedOptionClass : classes.option
-              }
+              className={ chosenAnswer === option ? selectedOptionClass : classes.option}
               onClick={() => handleSubmitAnswer(option)}
             >
               {option.text}
